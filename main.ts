@@ -2,7 +2,7 @@ let Temperatura = 0
 music.setVolume(37)
 basic.forever(function () {
     Temperatura = input.temperature()
-    basic.showNumber(Temperatura + 0)
+    basic.showNumber(Temperatura)
     if (Temperatura < 30) {
         basic.showIcon(IconNames.Chessboard)
     }
